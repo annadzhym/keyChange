@@ -1,0 +1,31 @@
+body {
+    background: maroon;
+}
+
+.commands {
+    font-size: 24px;
+    text-align: center;
+    color: ghostwhite;
+    list-style-type: none;
+
+}
+
+.field, .message {
+    background: ghostwhite;
+    width: 50%;
+    height: 150px;
+    margin: 150px auto;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.message {
+    display: none;
+    outline: none;
+}
+
+.field {
+    padding: 3px;
+}
